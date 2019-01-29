@@ -12,7 +12,7 @@ Once registered, you can manage the currencies you want to integrate in the Memb
 <h3>How to install</h3>
 
  1. Make sure you have WooCommerce installed. We recommend running the latest version.
- 2. Download the latest version of the integration: https://github.com/savvytechcom/savvy-woocommerce/
+ 2. Download the latest version of the integration: https://github.com/savvytechcom/savvy-woocommerce/releases
  3. Open WP Admin - Plugins - Add New
  4. Click {Upload Plugin} and select the ZIP file of the plugin
  5. Activate the plugin.
