@@ -249,8 +249,8 @@ function savvy_gateway_load()
     class WC_Gateway_Savvy extends WC_Payment_Gateway
     {
 
-        const API_DOMAIN = 'https://api.paybear.io';
-        const API_DOMAIN_TEST = 'https://api.test.paybear.io';
+        const API_DOMAIN = 'https://api.savvytech.com';
+        const API_DOMAIN_TEST = 'https://api.test.savvytech.com';
 
         /**
          * @var WC_Gateway_Savvy The reference the *Singleton* instance of this class
