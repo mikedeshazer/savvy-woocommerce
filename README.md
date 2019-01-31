@@ -35,5 +35,5 @@ In order to use the plugin you will also need a Savvy API Key. Getting a key is 
  8. If you want to access plugin's settings later, select WooCommerce - Settings - Checkout - Crypto Payments via savvytech.com
 
 <h3>Get Help</h3>
-Start with our [Knowledge Base](https://help.savvytech.com) and [FAQ](https://help.savvytech.com/frequently-asked-questions)
+Start with our <a href="https://help.savvytech.com">Knowledge Base</a> and <a href="https://help.savvytech.com/frequently-asked-questions">FAQ</a>
 Still have questions or need support? Log in to your Savvy account and use the live chat to talk to our team directly!
