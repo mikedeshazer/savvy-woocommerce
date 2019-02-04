@@ -586,6 +586,11 @@ function savvy_gateway_load()
                     'type' => 'text',
                     'description' => __('Testnet API key. Make sure that you enabled Testnet', 'woocommerce'),
                 ),
+                'api_testnet_public' => array(
+                    'title' => __('API Key (Testnet Public)', 'woocommerce'),
+                    'type' => 'text',
+                    'description' => __('Testnet Public API key.'),
+                ),
                 'title' => array(
                     'title' => __('Title', 'woocommerce'),
                     'type' => 'text',
