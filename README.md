@@ -26,13 +26,18 @@ In order to use the plugin you will also need a Savvy API Key. Getting a key is 
 <h3>How to install</h3>
 
  1. Make sure you have WooCommerce installed. We recommend running the latest version.
- 2. Download the latest version of the integration: https://github.com/savvytechcom/savvy-woocommerce/releases/latest
+ 2. Download the latest version of the integration: https://github.com/savvytechcom/savvy-woocommerce/archive/v1.0.2.zip
  3. Open WP Admin - Plugins - Add New
  4. Click {Upload Plugin} and select the ZIP file of the plugin
  5. Activate the plugin.
  6. Go to Plugin Settings and enter your API key
  7. Test the plugin by making a test order.
  8. If you want to access plugin's settings later, select WooCommerce - Settings - Payments - Savvy Payment
+ 
+ <h3>How to upgrade</h3>
+
+1. Download the latest version of the integration: https://github.com/savvytechcom/savvy-woocommerce/releases/download/v1.0.2/savvy-woocommerce.zip
+2. Extract the package and connect to your server using SFTP Clients. Then upload package contents (and rewrite files with the old ones) to Wordpress root.
 
 <h3>Get Help</h3>
 Start with our <a href="https://help.savvytech.com">Knowledge Base</a> and <a href="https://help.savvytech.com/frequently-asked-questions">FAQ</a>.
