@@ -4,7 +4,7 @@ if (!defined('ABSPATH'))
 
 /**
  * Plugin Name: Crypto Payments for WooCommerce by Savvytech.com
- * Plugin URI: https://www.savvytech.com/
+ * Plugin URI: https://www.savvy.io/
  * Description: Allows to accept crypto payments such as Bitcoin (BTC) and Ethereum (ETH)
  * Version: 1.0.2
  */
@@ -239,7 +239,7 @@ function savvy_gateway_load()
     }
 
     /**
-     * Crypto Payments for WooCommerce by savvytech.com
+     * Crypto Payments for WooCommerce by savvy.io
      *
      * @class        WC_Gateway_Savvy
      * @extends        WC_Gateway_Savvy
@@ -249,8 +249,8 @@ function savvy_gateway_load()
     class WC_Gateway_Savvy extends WC_Payment_Gateway
     {
 
-        const API_DOMAIN = 'https://api.savvytech.com';
-        const API_DOMAIN_TEST = 'https://api.test.savvytech.com';
+        const API_DOMAIN = 'https://api.savvy.io';
+        const API_DOMAIN_TEST = 'https://api.test.savvy.io';
 
         /**
          * @var WC_Gateway_Savvy The reference the *Singleton* instance of this class
@@ -480,7 +480,7 @@ function savvy_gateway_load()
             $plugin_links = array(
                 '<a href="' . $setting_link . '">' . __('Settings', 'woocommerce-gateway-savvy') . '</a>',
                 '<a href="https://github.com/Paybear/paybear-samples">' . __('Docs', 'woocommerce-gateway-savvy') . '</a>',
-                '<a href="https://www.savvytech.com/">' . __('Support', 'woocommerce-gateway-savvy') . '</a>',
+                '<a href="https://www.savvy.io/">' . __('Support', 'woocommerce-gateway-savvy') . '</a>',
             );
 
             return array_merge($plugin_links, $links);
@@ -574,12 +574,12 @@ function savvy_gateway_load()
                 'api_secret' => array(
                     'title' => __('API Key (Secret)', 'woocommerce'),
                     'type' => 'text',
-                    'description' => __('Starts with "sec". Sign up at https://www.savvytech.com/ and get your key', 'woocommerce'),
+                    'description' => __('Starts with "sec". Sign up at https://www.savvy.io/ and get your key', 'woocommerce'),
                 ),
                 'api_public' => array(
                     'title' => __('API Key (Public)', 'woocommerce'),
                     'type' => 'text',
-                    'description' => __('Starts with "pub". Sign up at https://www.savvytech.com/ and get your key', 'woocommerce'),
+                    'description' => __('Starts with "pub". Sign up at https://www.savvy.io/ and get your key', 'woocommerce'),
                 ),
                 'api_testnet' => array(
                     'title' => __('API Key (Testnet)', 'woocommerce'),
