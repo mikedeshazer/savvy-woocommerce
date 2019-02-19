@@ -1,10 +1,10 @@
 (function () {
-    var container = document.getElementById('paybear');
+    var container = document.getElementById('savvy');
     if (!container) {
         return;
     }
-    window.paybearWidget = new Paybear({
-        button: '#paybear-all',
+    window.savvyWidget = new Savvy({
+        button: '#savvy-all',
         fiatValue: parseFloat(container.getAttribute('data-fiat-value')),
         currencies: JSON.parse(htmlDecode(container.getAttribute('data-currencies'))),
         statusUrl: container.getAttribute('data-status'),
@@ -29,7 +29,7 @@
     var autoopen = container.getAttribute('data-autoopen');
 
     if (autoopen && autoopen == 'true') {
-        document.getElementById('paybear-all').click();
+        document.getElementById('savvy-all').click();
     }
 
 })();

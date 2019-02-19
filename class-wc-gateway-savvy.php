@@ -3,10 +3,10 @@ if (!defined('ABSPATH'))
     exit; // Exit if accessed directly
 
 /**
- * Plugin Name: Crypto Payments for WooCommerce by Savvytech.com
+ * Plugin Name: Crypto Payments for WooCommerce by Savvy.io
  * Plugin URI: https://www.savvy.io/
  * Description: Allows to accept crypto payments such as Bitcoin (BTC) and Ethereum (ETH)
- * Version: 1.0.2
+ * Version: 1.0.3
  */
 
 add_action('plugins_loaded', 'savvy_gateway_load', 0);
@@ -189,8 +189,8 @@ function savvy_payment_widget_shortcode($atts = array(), $content = null, $tag =
 
     $content .= '<div class="text-right">';
     if (!in_array($payment_status, array('waiting for confirmations', 'paid'))) {
-        $content .= '<a href="#" class="button" id="paybear-all">Pay with Crypto</a>';
-        $content .= '<div id="paybear" data-autoopen="true" style="display: none" data-fiat-value="' . $fiat_value . '"
+        $content .= '<a href="#" class="button" id="savvy-all">Pay with Crypto</a>';
+        $content .= '<div id="savvy" data-autoopen="true" style="display: none" data-fiat-value="' . $fiat_value . '"
                                                          data-currencies="' . esc_html(json_encode($currencies)) . '"
                                                          data-status="' . $status_url . '"
                                                          data-redirect="' . $redirect_url . '"
@@ -479,7 +479,7 @@ function savvy_gateway_load()
 
             $plugin_links = array(
                 '<a href="' . $setting_link . '">' . __('Settings', 'woocommerce-gateway-savvy') . '</a>',
-                '<a href="https://github.com/Paybear/paybear-samples">' . __('Docs', 'woocommerce-gateway-savvy') . '</a>',
+                '<a href="https://github.com/savvyio/savvy-samples">' . __('Docs', 'woocommerce-gateway-savvy') . '</a>',
                 '<a href="https://www.savvy.io/">' . __('Support', 'woocommerce-gateway-savvy') . '</a>',
             );
 
