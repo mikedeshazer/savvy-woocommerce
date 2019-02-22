@@ -1041,7 +1041,7 @@ This timer is setup to lock in a fixed rate for your payment. Once it expires, r
 
             $status = $order->get_status();
 
-            if ($order && ($status == 'on-hold' || $status == 'processing' || $status == 'failed')) {
+            if ($order && ($status == 'on-hold' || $status == 'processing' || $status == 'failed' || $status == 'completed')) {
 
                 $token = get_post_meta($order_id, 'Token Selected', true);
                 if ($token) {

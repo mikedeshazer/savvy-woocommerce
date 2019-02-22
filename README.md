@@ -26,7 +26,7 @@ In order to use the plugin you will also need a Savvy API Key. Getting a key is 
 <h3>How to install</h3>
 
  1. Make sure you have WooCommerce installed. We recommend running the latest version.
- 2. Download the latest version of the integration: https://github.com/savvyio/savvy-woocommerce/archive/v1.0.3.zip
+ 2. Download the latest version of the integration: https://github.com/savvyio/savvy-woocommerce/releases/latest
  3. Open WP Admin - Plugins - Add New
  4. Click {Upload Plugin} and select the ZIP file of the plugin
  5. Activate the plugin.
@@ -36,7 +36,7 @@ In order to use the plugin you will also need a Savvy API Key. Getting a key is 
  
  <h3>How to upgrade</h3>
 
-1. Download the latest version of the integration: https://github.com/savvyio/savvy-woocommerce/releases/download/v1.0.3/savvy-woocommerce.zip
+1. Download the latest version of the integration: https://github.com/savvyio/savvy-woocommerce/releases/latest
 2. Extract the package and connect to your server using SFTP Clients. Then upload package contents (and rewrite files with the old ones) to Wordpress root.
 
 <h3>Get Help</h3>
